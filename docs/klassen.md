@@ -7,8 +7,8 @@
 3. [Attribute](#attribute)
 4. [Methoden](#methoden)
    1. [Constructor](#constructor)
-   2. [Aufträge](#auftrge)
-   3. [Anfragen](#anfragen)
+   2. [Auftrag](#auftrag)
+   3. [Anfrage](#anfrage)
 
 Jede Java Klasse wird wie im Beispiel definiert, wobei jede Klasse aus
 einem Klassenkopf und einem Klassenkörper besteht.
@@ -136,7 +136,9 @@ der Auftrag erteilt, eine neue Instanz vom Typ Agent zu erstellen.
 
 Wir können also Methoden unterscheiden in **Aufträge** und **Anfragen**.
 
-### Aufträge
+### Auftrag
 
-### Anfragen
+
+
+### Anfrage
 

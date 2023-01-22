@@ -1,11 +1,19 @@
 # Klassen
 
-## Code Struktur
+## Inhalt
+
+1. [Klassenkopf](#klassenkopf)
+2. [Klassenkörper](#klassenkrper)
+3. [Attribute](#attribute)
+4. [Methoden](#methoden)
+   1. [Constructor](#constructor)
+   2. [Aufträge](#auftrge)
+   3. [Anfragen](#anfragen)
 
 Jede Java Klasse wird wie im Beispiel definiert, wobei jede Klasse aus
 einem Klassenkopf und einem Klassenkörper besteht.
 
-### Klassenkopf
+## Klassenkopf
 
 Der Klassenkopf enthält
 mindestens:
@@ -17,7 +25,7 @@ mindestens:
 Der Klassenname wird grundsätzlich am Anfang großgeschrieben und sollte
 nur ASCII-Zeichen enthalten.
 
-### Klassenkörper
+## Klassenkörper
 
 Die Attribute und Methoden der Klassen werden innerhalb der geschweiften
 Klammern notiert. Der Klassenkörper folgt unmittelbar dem Klassenkopf.
@@ -29,7 +37,7 @@ public class Klassenname // Klassenkopf
 }
 ````
 
-### Attribute
+## Attribute
 
 Jede Klasse kann mehrere Attribute besitzen, muss sie jedoch nicht.
 Attribute werden - ebenso wie Methoden - innerhalb des Klassenkörpers
@@ -63,7 +71,7 @@ public class Agent // Klassenkopf
 }
 ````
 
-### Methoden
+## Methoden
 
 Methoden werden im Klassenkörper notiert und haben denselben formalen Aufbau wie die Klassen
 selbst. Sie bestehen also aus einem Methodenkopf und einem Methodenkörper.
@@ -88,7 +96,7 @@ public class Agent // Klassenkopf
 Obwohl alle Methoden demselben Aufbau folgen, lassen sich mindestens drei Arten von Methoden
 unterscheiden.
 
-#### Constructor
+### Constructor
 
 Constructor-Methoden werden beim Initialisieren einer Instanz ausgeführt. Sie sind daran
 erkennbar, dass sie grundsätzlich großgeschrieben werden und denselben Namen haben wie ihre
@@ -128,7 +136,7 @@ der Auftrag erteilt, eine neue Instanz vom Typ Agent zu erstellen.
 
 Wir können also Methoden unterscheiden in **Aufträge** und **Anfragen**.
 
-#### Aufträge
+### Aufträge
 
-#### Anfragen
+### Anfragen
 

@@ -6,9 +6,9 @@ package fachklassen;
  */
 public class Fahrzeug {
     // Attribute
-   private String kennzeichen;
-   private int tankvolumen;
-   private int verbrauch; //pro 100 km
+   final private String kennzeichen;
+   final private int tankvolumen;
+   final private int verbrauch; //pro 100 km
    
    //Refererenzattribut für Objektbeziehung (egal, welcher Art)
    private Zubehoer zubehoer;

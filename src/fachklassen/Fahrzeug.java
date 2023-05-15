@@ -1,5 +1,7 @@
 package fachklassen;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Informatik-Kurs
@@ -9,6 +11,7 @@ public class Fahrzeug {
    final private String kennzeichen;
    final private int tankvolumen;
    final private int verbrauch; //pro 100 km
+   private Scanner scanner;
    
    //Refererenzattribut für Objektbeziehung (egal, welcher Art)
    private Zubehoer zubehoer;
